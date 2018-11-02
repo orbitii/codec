@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="ssh://jammy.huang@10.14.7.3:29418/" />
+  <remote name="origin" fetch="ssh://10.14.7.3:29418/" />
   <default revision="master" remote="origin" />
 
-  <project name="ramdisk" remote="origin" />
-  <project name="build" remote="origin" />
+  <project name="arm-trusted-firmware" remote="origin" revision="master" />
+  <project name="linux-linaro-stable" remote="origin" revision="master" />
+  <project name="u-boot" remote="origin" revision="master" />
+  <project name="ramdisk" remote="origin" revision="master" />
+  <project name="busybox" remote="origin" revision="master" />
+  <project name="build" remote="origin" revision="master" />
 
 </manifest>
