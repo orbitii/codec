@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="ssh://jammy.huang@10.14.7.3:29418/" />
+  <default revision="master" remote="origin" />
+
+  <project path="bmvid"
+           name="bmvid" remote="origin" />
+
+  <project path="middleware-soc"
+           name="middleware-soc" remote="origin" />
+
+</manifest>
